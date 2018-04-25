@@ -164,9 +164,9 @@ void inicializarNave() {
 	nave->vertices.push_back({ vec4(-0.25f, 1.0f, -0.5f, 1.0f),vec4((float(rand() % 101)) / 100,(float(rand() % 101)) / 100,(float(rand() % 101)) / 100,1.0f) });
 	nave->vertices.push_back({ vec4(0.0f, 0.0f, 6.0f, 1.0f),vec4((float(rand() % 101)) / 100,(float(rand() % 101)) / 100,(float(rand() % 101)) / 100,1.0f) });
 
-	nave->vertices.push_back({ vec4(0.0f, 0.0f, 6.0f, 1.0f),vec4((float(rand() % 101)) / 100,(float(rand() % 101)) / 100,(float(rand() % 101)) / 100,1.0f) });
-	nave->vertices.push_back({ vec4(0.25f, 1.0f, -0.5f, 1.0f),vec4((float(rand() % 101)) / 100,(float(rand() % 101)) / 100,(float(rand() % 101)) / 100,1.0f) });
 	nave->vertices.push_back({ vec4(1.0f, 0.0f, -1.0f, 1.0f),vec4((float(rand() % 101)) / 100,(float(rand() % 101)) / 100,(float(rand() % 101)) / 100,1.0f) });
+	nave->vertices.push_back({ vec4(0.25f, 1.0f, -0.5f, 1.0f),vec4((float(rand() % 101)) / 100,(float(rand() % 101)) / 100,(float(rand() % 101)) / 100,1.0f) });
+	nave->vertices.push_back({ vec4(0.0f, 0.0f, 6.0f, 1.0f),vec4((float(rand() % 101)) / 100,(float(rand() % 101)) / 100,(float(rand() % 101)) / 100,1.0f) });
 
 	nave->vertices.push_back({ vec4(-0.25f, 1.0f, -0.5f, 1.0f),vec4((float(rand() % 101)) / 100,(float(rand() % 101)) / 100,(float(rand() % 101)) / 100,1.0f) });
 	nave->vertices.push_back({ vec4(0.25f, 1.0f, -0.5f, 1.0f),vec4((float(rand() % 101)) / 100,(float(rand() % 101)) / 100,(float(rand() % 101)) / 100,1.0f) });
@@ -176,8 +176,8 @@ void inicializarNave() {
 	nave->vertices.push_back({ vec4(0.0f, 0.0f, 6.0f, 1.0f),vec4((float(rand() % 101)) / 100,(float(rand() % 101)) / 100,(float(rand() % 101)) / 100,1.0f) });
 	nave->vertices.push_back({ vec4(0.0f, -0.5f, -0.5f, 1.0f),vec4((float(rand() % 101)) / 100,(float(rand() % 101)) / 100,(float(rand() % 101)) / 100,1.0f) });
 
-	nave->vertices.push_back({ vec4(0.0f, 0.0f, 6.0f, 1.0f),vec4((float(rand() % 101)) / 100,(float(rand() % 101)) / 100,(float(rand() % 101)) / 100,1.0f) });
 	nave->vertices.push_back({ vec4(1.0f, 0.0f, -1.0f, 1.0f),vec4((float(rand() % 101)) / 100,(float(rand() % 101)) / 100,(float(rand() % 101)) / 100,1.0f) });
+	nave->vertices.push_back({ vec4(0.0f, 0.0f, 6.0f, 1.0f),vec4((float(rand() % 101)) / 100,(float(rand() % 101)) / 100,(float(rand() % 101)) / 100,1.0f) });
 	nave->vertices.push_back({ vec4(0.0f, -0.5f, -0.5f, 1.0f),vec4((float(rand() % 101)) / 100,(float(rand() % 101)) / 100,(float(rand() % 101)) / 100,1.0f) });
 
 	//Ventana
@@ -185,17 +185,17 @@ void inicializarNave() {
 	nave->vertices.push_back({ vec4(-0.25f, 1.5f, -1.0f, 1.0f),vec4((float(rand() % 101)) / 100,(float(rand() % 101)) / 100,(float(rand() % 101)) / 100,1.0f) });
 	nave->vertices.push_back({ vec4(0.25f, 1.0f, -0.5f, 1.0f),vec4((float(rand() % 101)) / 100,(float(rand() % 101)) / 100,(float(rand() % 101)) / 100,1.0f) });
 
-	nave->vertices.push_back({ vec4(-0.25f, 1.5f, -1.0f, 1.0f),vec4((float(rand() % 101)) / 100,(float(rand() % 101)) / 100,(float(rand() % 101)) / 100,1.0f) });
-	nave->vertices.push_back({ vec4(0.25f, 1.5f, -1.0f, 1.0f),vec4((float(rand() % 101)) / 100,(float(rand() % 101)) / 100,(float(rand() % 101)) / 100,1.0f) });
 	nave->vertices.push_back({ vec4(0.25f, 1.0f, -0.5f, 1.0f),vec4((float(rand() % 101)) / 100,(float(rand() % 101)) / 100,(float(rand() % 101)) / 100,1.0f) });
+	nave->vertices.push_back({ vec4(0.25f, 1.5f, -1.0f, 1.0f),vec4((float(rand() % 101)) / 100,(float(rand() % 101)) / 100,(float(rand() % 101)) / 100,1.0f) });
+	nave->vertices.push_back({ vec4(-0.25f, 1.5f, -1.0f, 1.0f),vec4((float(rand() % 101)) / 100,(float(rand() % 101)) / 100,(float(rand() % 101)) / 100,1.0f) });
 
 	//Costados
 	nave->vertices.push_back({ vec4(-1.0f, 0.0f, -1.0f, 1.0f),vec4((float(rand() % 101)) / 100,(float(rand() % 101)) / 100,(float(rand() % 101)) / 100,1.0f) });
 	nave->vertices.push_back({ vec4(-0.25f, 1.5f, -1.0f, 1.0f),vec4((float(rand() % 101)) / 100,(float(rand() % 101)) / 100,(float(rand() % 101)) / 100,1.0f) });
 	nave->vertices.push_back({ vec4(-0.25f, 1.0f, -0.5f, 1.0f),vec4((float(rand() % 101)) / 100,(float(rand() % 101)) / 100,(float(rand() % 101)) / 100,1.0f) });
 
-	nave->vertices.push_back({ vec4(0.25f, 1.5f, -1.0f, 1.0f),vec4((float(rand() % 101)) / 100,(float(rand() % 101)) / 100,(float(rand() % 101)) / 100,1.0f) });
 	nave->vertices.push_back({ vec4(1.0f, 0.0f, -1.0f, 1.0f),vec4((float(rand() % 101)) / 100,(float(rand() % 101)) / 100,(float(rand() % 101)) / 100,1.0f) });
+	nave->vertices.push_back({ vec4(0.25f, 1.5f, -1.0f, 1.0f),vec4((float(rand() % 101)) / 100,(float(rand() % 101)) / 100,(float(rand() % 101)) / 100,1.0f) });
 	nave->vertices.push_back({ vec4(0.25f, 1.0f, -0.5f, 1.0f),vec4((float(rand() % 101)) / 100,(float(rand() % 101)) / 100,(float(rand() % 101)) / 100,1.0f) });
 
 	//Atras
